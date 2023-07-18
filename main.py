@@ -17,7 +17,7 @@ loginButton.click()
 print(driver.title)
 
 nameEmail = driver.find_element(By.XPATH, "//input[@name='login[email_phone]']")
-nameEmail.send_keys("mortezayazdani306@gmail.com")
+nameEmail.send_keys("Email@email.com")
 
 submitButton = driver.find_element(By.XPATH, "//button[contains(.,'ورود به دیجی‌کالا')]")
 submitButton.click()
@@ -25,7 +25,7 @@ submitButton.click()
 print(driver.title)
 
 passWord = driver.find_element(By.XPATH, "//form[@id='authForm']/div[2]/div[3]/label/div/input")
-passWord.send_keys("mohammadjoon")
+passWord.send_keys("Password")
 
 resumeButton = driver.find_element(By.CSS_SELECTOR, ".o-btn--full-width")
 resumeButton.click()
